@@ -7,6 +7,4 @@ app.use(express.json())
 //RESTful API's
 app.use(userRouter)
 app.use(taskRouter)
-app.listen(port,()=>{
-    console.log('server started on port',port)
-})
+module.exports=app
